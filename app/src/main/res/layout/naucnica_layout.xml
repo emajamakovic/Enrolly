@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/onboarding">
+
+    <ImageView
+        android:id="@+id/enrolly1"
+        android:layout_width="303dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enrolly_blue" />
+
+    <ImageView
+        android:id="@+id/naucnica_photo"
+        android:layout_width="304dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enrolly1"
+        app:srcCompat="@drawable/naucnicaa" />
+
+    <TextView
+        android:id="@+id/natpis1"
+        android:layout_width="323dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="215dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Jeste li već odlučili koji fakultet upisati?"
+        android:textAlignment="center"
+        android:textColor="@color/colorOnPrimary"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naucnica_photo" />
+
+    <ImageView
+        android:id="@+id/tacke_naucnica"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naucnica_photo"
+        app:srcCompat="@drawable/tacka" />
+</androidx.constraintlayout.widget.ConstraintLayout>

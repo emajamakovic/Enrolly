@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1C61AE</color>
+    <color name="colorPrimaryVariant">#BCE0FD</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorSecondary">#FF8C00</color>
+    <color name="colorSecondaryVariant">#EDBA6D</color>
+    <color name="colorOnSecondary">@color/white</color>
+
+    <color name="button_pressed">#BCE0FD</color>
+    <color name="button_focused">#BCE0FD</color>
+    <color name="button_selected">#BCE0FD</color>
+    <color name="button_default">#1c76bb</color>
+</resources>
